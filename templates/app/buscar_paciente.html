@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load form_tags %}
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4">🔍 Buscar Paciente por DNI</h2>
+
+  <form method="post" class="mb-4">
+    {% csrf_token %}
+    <div class="mb-3">
+      {{ form.dni.label_tag }}
+      {{ form.dni|add_class:"form-control" }}
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+  </form>
+
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if paciente %}
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ paciente.nombre }} {{ paciente.apellido }}</h5>
+        <p class="card-text"><strong>DNI:</strong> {{ paciente.dni }}</p>
+
+        <div class="btn-group" role="group">
+          <a href="{% url 'app:detalle_paciente' paciente.id %}" class="btn btn-outline-info">📋 Ver Detalle</a>
+          <a href="{% url 'app:agregar_resultado' paciente.id %}" class="btn btn-outline-success">🧪 Cargar Resultado</a>
+          <a href="{% url 'app:arbol_genealogico' paciente.id %}" class="btn btn-outline-secondary">🌳 Árbol Genealógico</a>
+          <a href="{% url 'app:editar_relaciones' paciente.id %}" class="btn btn-outline-warning">✏️ Editar Relaciones</a>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="mt-4">
+    <a href="{% url 'app:index' %}" class="btn btn-link">← Volver al Inicio</a>
+  </div>
+</div>
+{% endblock %}

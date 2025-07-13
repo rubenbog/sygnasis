@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load form_tags %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4">💊 Agregar Medicación para {{ paciente.nombre }} {{ paciente.apellido }}</h2>
+
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  <form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+      {{ form.nombre.label_tag }}
+      {{ form.nombre|add_class:"form-control" }}
+    </div>
+    <div class="mb-3">
+      {{ form.dosis.label_tag }}
+      {{ form.dosis|add_class:"form-control" }}
+    </div>
+    <div class="mb-3">
+      {{ form.indicaciones.label_tag }}
+      {{ form.indicaciones|add_class:"form-control" }}
+    </div>
+    <div class="mb-3">
+      {{ form.fecha_inicio.label_tag }}
+      {{ form.fecha_inicio|add_class:"form-control" }}
+    </div>
+    <div class="mb-3">
+      {{ form.fecha_fin.label_tag }}
+      {{ form.fecha_fin|add_class:"form-control" }}
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Medicación</button>
+    <a href="{% url 'app:detalle_paciente' paciente.id %}" class="btn btn-secondary ms-2">Volver</a>
+  </form>
+</div>
+{% endblock %}

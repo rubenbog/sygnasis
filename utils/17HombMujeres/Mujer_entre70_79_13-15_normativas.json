@@ -1,0 +1,182 @@
+[
+  {
+    "estudio": "MoCA",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 25.6,
+    "desviacion": 2.8
+  },
+  {
+    "estudio": "Memoria Crasf Story  Recuerdo Inmediato",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 21.5,
+    "desviacion": 6.5
+  },
+  {
+    "estudio": "Memoria Crasf Story  Recuerdo Inmediato Parafraseo",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 15.9,
+    "desviacion": 3.8
+  },
+  {
+    "estudio": "Memoria Crasf Story  Recuerdo Diferido",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 18.8,
+    "desviacion": 6.5
+  },
+  {
+    "estudio": "Memoria Crasf Story  Recuerdo Diferido Parafraseo",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 13.5,
+    "desviacion": 4.7
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Total",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 41.6,
+    "desviacion": 6.6
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Diferido",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 8.3,
+    "desviacion": 2.1
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Reconocimiento",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 11.3,
+    "desviacion": 2.8
+  },
+  {
+    "estudio": "Figura de Benson  Reproduccion",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 11.0,
+    "desviacion": 3.0
+  },
+  {
+    "estudio": "Lenguaje Test de Mint",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 29.2,
+    "desviacion": 2.5
+  },
+  {
+    "estudio": "Lenguaje Fluencia semantica (animales)",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 19.4,
+    "desviacion": 4.9
+  },
+  {
+    "estudio": "Lenguaje Fluencia fonologica (letra P)",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 14.0,
+    "desviacion": 4.5
+  },
+  {
+    "estudio": "Atencion Digitos directos",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 6.4,
+    "desviacion": 1.3
+  },
+  {
+    "estudio": "Atencion Digitos inversos",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 4.8,
+    "desviacion": 1.2
+  },
+  {
+    "estudio": "Atencion Trail Making test A",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 34.0,
+    "desviacion": 11.4
+  },
+  {
+    "estudio": "Sistema Ejecutivo Trail Making test B",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 97.1,
+    "desviacion": 52.8
+  },
+  {
+    "estudio": "Sistema Ejecutivo FAB",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 16.9,
+    "desviacion": 1.4
+  },
+  {
+    "estudio": "Habilidades Visuoespaciales  Figura de Benson Copia",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 15.4,
+    "desviacion": 1.4
+  }
+]

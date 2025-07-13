@@ -1,0 +1,182 @@
+[
+  {
+    "estudio": "MoCA",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 24.7,
+    "desviacion": 3.3
+  },
+  {
+    "estudio": "Memoria Crasf Story Recuerdo Inmediato",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 20.3,
+    "desviacion": 6.4
+  },
+  {
+    "estudio": "Memoria Crasf Story Recuerdo Inmediato Parafraseo",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 14.9,
+    "desviacion": 4.0
+  },
+  {
+    "estudio": "Memoria Crasf Story Recuerdo Diferido",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 17.1,
+    "desviacion": 7.1
+  },
+  {
+    "estudio": "Memoria Crasf Story Recuerdo Diferido Parafraseo",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 13.2,
+    "desviacion": 4.6
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Total",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 35.5,
+    "desviacion": 7.4
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Diferido",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 6.3,
+    "desviacion": 2.3
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Reconocimiento",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 11.9,
+    "desviacion": 1.5
+  },
+  {
+    "estudio": "Figura de Benson  Reproduccion",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 9.6,
+    "desviacion": 3.2
+  },
+  {
+    "estudio": "Lenguaje Test de Mint",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 28.7,
+    "desviacion": 2.7
+  },
+  {
+    "estudio": "Lenguaje Fluencia semantica (animales)",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 17.7,
+    "desviacion": 4.9
+  },
+  {
+    "estudio": "Lenguaje Fluencia fonologica (letra P)",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 13.9,
+    "desviacion": 4.3
+  },
+  {
+    "estudio": "Atencion Digitos directos",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 6.6,
+    "desviacion": 1.2
+  },
+  {
+    "estudio": "Atencion Digitos inversos",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 4.8,
+    "desviacion": 1.2
+  },
+  {
+    "estudio": "Atencion Trail Making test A",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 41.4,
+    "desviacion": 18.8
+  },
+  {
+    "estudio": "Sistema Ejecutivo Trail Making test B",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 116.0,
+    "desviacion": 59.5
+  },
+  {
+    "estudio": "Sistema Ejecutivo FAB",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 16.5,
+    "desviacion": 1.7
+  },
+  {
+    "estudio": "Habilidades Visuoespaciales  Figura de Benson Copia",
+    "sexo": "F",
+    "edad_min": 80,
+    "edad_max": 89,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 15.2,
+    "desviacion": 1.8
+  }
+]

@@ -1,0 +1,13 @@
+crear el archivo normativas.json
+E:\sygnasis_project\utils\convertir_a_json.py  xxxx.txt
+
+python manage.py shell
+>>> from utils.importar_normativa import importar_desde_json
+>>> importar_desde_json('E:/sygnasis_project/utils/normativas.json')
+
+*****************OTRA*********************
+python manage.py importar_estudios datos_estudios.json
+
+*******luego****************
+
+python manage.py verificar_normativas

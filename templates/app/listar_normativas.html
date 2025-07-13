@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+  <h2>📊 Normativas Registradas</h2>
+  <a href="{% url 'app:agregar_normativa' %}" class="btn btn-primary mb-3">➕ Agregar Nueva Normativa</a>
+
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Estudio</th><th>Sexo</th><th>Edad</th><th>Años Estudio</th><th>Media</th><th>Desviación</th><th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for n in normativas %}
+      <tr>
+        <td>{{ n.estudio }}</td>
+        <td>{{ n.sexo }}</td>
+        <td>{{ n.edad_min }} - {{ n.edad_max }}</td>
+        <td>{{ n.anios_estudio_min }} - {{ n.anios_estudio_max }}</td>
+        <td>{{ n.media }}</td>
+        <td>{{ n.desviacion }}</td>
+        <td>
+          <a href="{% url 'app:editar_normativa' n.id %}" class="btn btn-sm btn-warning">✏️ Editar</a>
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="7">No hay normativas registradas.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

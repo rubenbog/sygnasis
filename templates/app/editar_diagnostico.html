@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load form_tags %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4">✏️ Editar Diagnóstico de {{ paciente.nombre }} {{ paciente.apellido }}</h2>
+
+  <form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+      {{ form.tipo.label_tag }}
+      {{ form.tipo|add_class:"form-control" }}
+    </div>
+    <div class="mb-3">
+      {{ form.subtipo.label_tag }}
+      {{ form.subtipo|add_class:"form-control" }}
+    </div>
+    <div class="mb-3">
+      {{ form.severidad.label_tag }}
+      {{ form.severidad|add_class:"form-control" }}
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a href="{% url 'app:detalle_paciente' paciente.id %}" class="btn btn-secondary ms-2">Cancelar</a>
+  </form>
+</div>
+{% endblock %}

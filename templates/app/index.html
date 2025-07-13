@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Bienvenido a Sygnasis</h1>
+<p>Este sistema permite gestionar la evaluación cognitiva y clínica de los pacientes.</p>
+
+<hr>
+
+<li><a href="{% url 'app:cargar_estudios_json' %}">Importar Estudios (JSON)</a></li>
+
+<h2>Cliente</h2>
+<ul>
+  <li><a href="{% url 'app:buscar_paciente' %}">🔍 Buscar</a></li>
+  <li><a href="{% url 'app:cargar_paciente' %}">➕ Cargar</a></li>
+  <!-- Para eliminar y modificar podrías enlazar a la misma lista con acciones -->
+  <li><a href="{% url 'app:listar_pacientes' %}">✏️ Listas </a> (desde listado)</li>
+</ul>
+<hr>
+
+<h2>Estudios</h2>
+<ul>
+<li><a href="{% url 'app:listar_normativas' %}" class="btn btn-outline-secondary">📊 Ver Normativas</a></li>
+</ul>
+
+{% endblock %}

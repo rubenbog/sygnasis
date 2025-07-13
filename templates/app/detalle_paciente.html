@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Detalle del Paciente: {{ paciente.nombre }} {{ paciente.apellido }}</h2>
+
+  <p><strong>DNI:</strong> {{ paciente.dni }}</p>
+  <p><strong>Fecha de nacimiento:</strong> {{ paciente.fecha_nacimiento }}</p>
+  <p><strong>Sexo:</strong> {{ paciente.sexo }}</p>
+  <p><strong>Años de educación:</strong> {{ paciente.años_educacion }}</p>
+
+  <h3>Diagnósticos</h3>
+  <ul>
+    {% for diag in diagnosticos %}
+      <li>
+        {{ diag.tipo }} - {{ diag.subtipo }} ({{ diag.severidad }})
+        <a href="{% url 'app:editar_diagnostico' diag.id %}" class="btn btn-sm btn-outline-primary">✏️</a>
+        <a href="{% url 'app:eliminar_diagnostico' diag.id %}" class="btn btn-sm btn-outline-danger">🗑️</a>
+      </li>
+    {% empty %}
+      <li>No hay diagnósticos cargados.</li>
+    {% endfor %}
+  </ul>
+
+  <h3>Síntomas</h3>
+  <ul>
+    {% for sint in sintomas %}
+      <li>
+        {{ sint.descripcion }}
+        <a href="{% url 'app:editar_sintomas' sint.id %}" class="btn btn-sm btn-outline-primary">✏️</a>
+        <a href="{% url 'app:eliminar_sintomas' sint.id %}" class="btn btn-sm btn-outline-danger">🗑️</a>
+      </li>
+    {% empty %}
+      <li>No hay síntomas cargados.</li>
+    {% endfor %}
+  </ul>
+
+  <h3>Comorbilidades</h3>
+  <ul>
+    {% for com in comorbilidades %}
+       <li>
+        {{ com.nombre }} - {{ com.observaciones }}
+        <a href="{% url 'app:editar_comorbilidad' com.id %}" class="btn btn-sm btn-outline-primary">✏️</a>
+        <a href="{% url 'app:eliminar_comorbilidad' com.id %}" class="btn btn-sm btn-outline-danger">🗑️</a>
+      </li>
+    {% empty %}
+      <li>No hay comorbilidades cargadas.</li>
+    {% endfor %}
+  </ul>
+
+  <h3>Informes</h3>
+  <ul>
+    {% for informe in informes %}
+      <li>
+        {{ informe.fecha }}: {{ informe.contenido }}
+        <a href="{% url 'app:editar_informe' informe.id %}" class="btn btn-sm btn-outline-primary">✏️</a>
+        <a href="{% url 'app:eliminar_informe' informe.id %}" class="btn btn-sm btn-outline-danger">🗑️</a>
+      </li>
+    {% empty %}
+      <li>No hay informes cargados.</li>
+    {% endfor %}
+  </ul>
+
+<h3>Medicación</h3>
+<ul>
+  {% for medicacion in medicaciones %}
+    <li>
+      {{ medicacion.nombre }} - {{ medicacion.dosis }} - Desde {{ medicacion.fecha_inicio }}
+      {% if medicacion.fecha_fin %} hasta {{ medicacion.fecha_fin }}{% endif %}
+	  <a href="{% url 'app:editar_medicacion' medicacion.id %}" class="btn btn-sm btn-outline-primary">✏️</a>
+      <a href="{% url 'app:eliminar_medicacion' medicacion.id %}" class="btn btn-sm btn-outline-danger">🗑️</a>
+    </li>
+  {% empty %}
+    <li>No hay medicación cargada.</li>
+  {% endfor %}
+</ul>
+
+  <h3>Resultados de Estudios</h3>
+<ul>
+  {% for res in resultados %}
+    <li>
+      {{ res.estudio.nombre }}:
+      Z={{ res.puntuacion_z }} (Bruto: {{ res.puntaje_bruto }}) |
+      <a href="{% url 'app:editar_resultado' res.id %}">✏️ Editar</a>
+    </li>
+  {% empty %}
+    <li>No hay resultados cargados.</li>
+  {% endfor %}
+</ul>
+
+<h3>Hijos</h3>
+<ul>
+  {% for hijo in hijos %}
+    <li>
+      <a href="{% url 'app:editar_relaciones' hijo.id %}" class="btn btn-sm btn-outline-warning">✏️ Editar</a>
+      <a href="{% url 'app:detalle_paciente' hijo.id %}">{{ hijo.nombre }} {{ hijo.apellido }}</a>
+    </li>
+  {% empty %}
+    <li>Sin hijos registrados</li>
+  {% endfor %}
+</ul>
+
+
+ <h3>Estudios</h3>
+  <ul>
+  <li><a href="{% url 'app:agregar_diagnostico' paciente.id %}">Diagnóstico</a></li>
+  <li><a href="{% url 'app:agregar_sintoma' paciente.id %}">Síntoma</a></li>
+  <li><a href="{% url 'app:agregar_comorbilidad' paciente.id %}">Comorbilidad</a></li>
+  <li><a href="{% url 'app:agregar_informe' paciente.id %}">Informe</a></li>
+  <li><a href="{% url 'app:agregar_medicacion' paciente.id %}">Medicación</a></li>
+  <li><a href="{% url 'app:agregar_resultado' paciente.id %}">Resultado de Estudio</a></li>
+  </ul>
+ <h3>Arbol Genealógico</h3>
+  <ul>
+   <li><p><a href="{% url 'app:arbol_genealogico' paciente.id %}" class="btn btn-outline-primary">👪 Ver Árbol Genealógico</a></p></li>
+  </ul>
+ <h3>Relaciones</h3>
+  <ul>
+  <li><p><a href="{% url 'app:editar_relaciones' paciente.id %}">✏️ Editar relaciones familiares</a></p></li>
+  </ul>
+  <p><a href="{% url 'app:index' %}">← Volver a la página principal</a></p>
+ 
+{% endblock %}

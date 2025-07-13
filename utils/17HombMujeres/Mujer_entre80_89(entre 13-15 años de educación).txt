@@ -1,0 +1,18 @@
+MoCA;F;80;89;13;15;24.70;3.30
+Memoria Crasf Story Recuerdo Inmediato;F;80;89;13;15;20.30;6.40
+Memoria Crasf Story Recuerdo Inmediato Parafraseo;F;80;89;13;15;14.90;4.00
+Memoria Crasf Story Recuerdo Diferido;F;80;89;13;15;17.10;7.10
+Memoria Crasf Story Recuerdo Diferido Parafraseo;F;80;89;13;15;13.20;4.60
+Aprendizaje Verbal de Rey Total;F;80;89;13;15;35.50;7.40
+Aprendizaje Verbal de Rey Diferido;F;80;89;13;15;6.30;2.30
+Aprendizaje Verbal de Rey Reconocimiento;F;80;89;13;15;11.90;1.50
+Figura de Benson  Reproduccion;F;80;89;13;15;9.60;3.20
+Lenguaje Test de Mint;F;80;89;13;15;28.70;2.70
+Lenguaje Fluencia semantica (animales) ;F;80;89;13;15;17.70;4.90
+Lenguaje Fluencia fonologica (letra P);F;80;89;13;15;13.90;4.30
+Atencion Digitos directos;F;80;89;13;15;6.60;1.20
+Atencion Digitos inversos ;F;80;89;13;15;4.80;1.20
+Atencion Trail Making test A;F;80;89;13;15;41.40;18.80
+Sistema Ejecutivo Trail Making test B;F;80;89;13;15;116.00;59.50
+Sistema Ejecutivo FAB;F;80;89;13;15;16.50;1.70
+Habilidades Visuoespaciales  Figura de Benson Copia;F;80;89;13;15;15.20;1.80

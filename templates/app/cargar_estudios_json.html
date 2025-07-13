@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Subir archivo JSON con resultados de estudios</h2>
+
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p><input type="file" name="archivo_json" accept=".json" required></p>
+    <button type="submit">Cargar</button>
+  </form>
+
+  {% if messages %}
+    <ul>
+      {% for message in messages %}
+        <li>{{ message }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endblock %}

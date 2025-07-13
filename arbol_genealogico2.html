@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Árbol Genealógico de {{ paciente.nombre }} {{ paciente.apellido }}</h2>
+
+  <ul>
+    {% if padre %}
+      <li>👨 Padre: {{ padre.nombre }} {{ padre.apellido }}</li>
+    {% endif %}
+    {% if madre %}
+      <li>👩 Madre: {{ madre.nombre }} {{ madre.apellido }}</li>
+    {% endif %}
+    {% if conyuge %}
+      <li>❤️ Cónyuge: {{ conyuge.nombre }} {{ conyuge.apellido }}</li>
+    {% endif %}
+	{% if hermanos %}
+    {
+    text: { name: "👫 Hermanos" },
+    children: [
+        {% for h in hermanos %}
+        { text: { name: "{{ h.nombre }} {{ h.apellido }}" } },
+        {% endfor %}
+    ]
+    },
+    {% endif %}
+  </ul>
+
+  <h3>👶 Hijos:</h3>
+  <ul>
+    {% for hijo in hijos %}
+      <li>{{ hijo.nombre }} {{ hijo.apellido }}</li>
+    {% empty %}
+      <li>No tiene hijos registrados.</li>
+    {% endfor %}
+  </ul>
+
+
+  <a href="{% url 'app:detalle_paciente' paciente.id %}">← Volver al detalle</a>
+{% endblock %}

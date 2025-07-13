@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>🔎 Buscar Paciente por DNI</h2>
+
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Buscar</button>
+  </form>
+
+  {% if messages %}
+    <ul class="messages">
+      {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if paciente %}
+    <h3>Resultado:</h3>
+    <p><strong>{{ paciente.nombre }} {{ paciente.apellido }}</strong> (DNI: {{ paciente.dni }})</p>
+    <ul>
+      <li><a href="{% url 'app:detalle_paciente' paciente.id %}">📄 Ver Detalle del Paciente</a></li>
+      <li><a href="{% url 'app:agregar_resultado' paciente.id %}">🧪 Cargar Resultado de Estudio</a></li>
+      <li><a href="{% url 'app:arbol_genealogico' paciente.id %}">🌳 Ver Árbol Genealógico</a></li>
+      <li><a href="{% url 'app:editar_relaciones' paciente.id %}">✏️ Editar Relaciones Familiares</a></li>
+    </ul>
+  {% endif %}
+
+  <p><a href="{% url 'app:index' %}">← Volver al Inicio</a></p>
+{% endblock %}

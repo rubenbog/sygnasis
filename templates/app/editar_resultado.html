@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load form_tags %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4">✏️ Editar Resultado de Estudio para {{ paciente.nombre }} {{ paciente.apellido }}</h2>
+
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  <form method="post" class="needs-validation mb-4" novalidate>
+    {% csrf_token %}
+    <div class="mb-3">
+      {{ form.estudio.label_tag }}
+      {{ form.estudio|add_class:"form-select" }}
+    </div>
+    <div class="mb-3">
+      {{ form.puntaje_bruto.label_tag }}
+      {{ form.puntaje_bruto|add_class:"form-control" }}
+    </div>
+    <button type="submit" class="btn btn-primary">💾 Guardar Cambios</button>
+    <a href="{% url 'app:detalle_paciente' paciente.id %}" class="btn btn-secondary">← Volver al detalle</a>
+  </form>
+
+  <hr>
+  <form method="post" action="{% url 'app:eliminar_resultado' resultado.id %}" onsubmit="return confirm('¿Estás seguro de que deseas eliminar este resultado? Esta acción no se puede deshacer.')">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">🗑️ Eliminar Resultado</button>
+  </form>
+</div>
+{% endblock %}

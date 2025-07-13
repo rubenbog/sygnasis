@@ -1,0 +1,20 @@
+MoCA;F;0;60;17;100;27.7;2.3
+Memoria Craft Story Recuerdo Inmediato;F;0;60;17;100;24.1;6.4
+Memoria Craft Story  Recuerdo Inmediato Parafraseo;F;0;60;17;100;17.5;3.6
+Memoria Craft Story  Recuerdo Diferido;F;0;60;17;100;22.2;6.7
+Memoria Craft Story  Recuerdo Diferido Parafraseo;F;0;60;17;100;17.3;3.9
+Aprendizaje Verbal de Rey   Total;F;0;60;17;100;50.6;7.1
+Aprendizaje Verbal de Rey   Diferido;F;0;60;17;100;10.6;2.5
+Aprendizaje Verbal de Rey   Reconocimiento;F;0;60;17;100;13;2.2
+Figura de Benson  Reproducción;F;0;60;17;100;12.8;2.4
+Lenguaje  Mint;F;0;60;17;100;30;2.5
+Lenguaje Fluencia semántica (animales);F;0;60;17;100;22.4;4.8
+Lenguaje Fluencia fonológica (letra P);F;0;60;17;100;17.1;4.1
+Atención  Dígitos directos;F;0;60;17;100;7.3;0.8
+Atención  Dígitos inversos;F;0;60;17;100;5.1;0.9
+Atención  Clave de Números (WAIS IV);F;0;60;17;100;10;3
+Atención Trail Making test A;F;0;60;17;100;28.5;10.1
+Sistema Ejecutivo  Trail Making test “B""";F;0;60;17;100;58.5;16.4
+Sistema Ejecutivo  Stroop PC;F;0;60;17;100;50;10
+Sistema Ejecutivo  Stroop Interferencia;F;0;60;17;100;50;10
+Habilidades Visuoespaciales  Figura de Benson Copia;F;0;60;17;100;15.8;1.2

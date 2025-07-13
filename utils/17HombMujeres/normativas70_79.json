@@ -1,0 +1,202 @@
+[
+  {
+    "estudio": "MoCA",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 26.5,
+    "desviacion": 2.2
+  },
+  {
+    "estudio": "Craft Story Recuerdo Inmediato",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 21.9,
+    "desviacion": 6.3
+  },
+  {
+    "estudio": "Craft Story Recuerdo Inmediato Parafraseo",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 16.2,
+    "desviacion": 3.7
+  },
+  {
+    "estudio": "Craft Story Recuerdo Diferido",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 18.8,
+    "desviacion": 6.4
+  },
+  {
+    "estudio": "Craft Story Recuerdo Diferido Parafraseo",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 15.1,
+    "desviacion": 4.0
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Total",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 32.6,
+    "desviacion": 8.3
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey  Diferido",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 5.6,
+    "desviacion": 2.6
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey  Reconocimiento",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 11.5,
+    "desviacion": 2.6
+  },
+  {
+    "estudio": "Figura de Benson Reproducción",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 11.5,
+    "desviacion": 2.9
+  },
+  {
+    "estudio": "Lenguaje Test de Mint",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 30.8,
+    "desviacion": 1.9
+  },
+  {
+    "estudio": "Lenguaje  Fluencia semántica animales",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 21.9,
+    "desviacion": 5.4
+  },
+  {
+    "estudio": "Lenguaje  Fluencia fonológica (letra P)",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 15.1,
+    "desviacion": 4.5
+  },
+  {
+    "estudio": "Atención Dígitos directos",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 6.9,
+    "desviacion": 1.2
+  },
+  {
+    "estudio": "Atención Dígitos inversos",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 5.2,
+    "desviacion": 1.3
+  },
+  {
+    "estudio": "Atención Trail Making test A\"\"\"",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 30.2,
+    "desviacion": 10.2
+  },
+  {
+    "estudio": "Sistema Ejecutivo Trail Making test B",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 74.9,
+    "desviacion": 30.2
+  },
+  {
+    "estudio": "Sistema Ejecutivo  FAB",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 16.9,
+    "desviacion": 1.4
+  },
+  {
+    "estudio": "Sistema Ejecutivo Test de Stroop PC",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 50.0,
+    "desviacion": 10.0
+  },
+  {
+    "estudio": "Sistema Ejecutivo Test de Stroop Interferencia",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 50.0,
+    "desviacion": 10.0
+  },
+  {
+    "estudio": "Habilidades Visuoespaciales Figura de Benson Copia",
+    "sexo": "M",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 15.6,
+    "desviacion": 1.4
+  }
+]

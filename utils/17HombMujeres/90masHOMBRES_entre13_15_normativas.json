@@ -1,0 +1,182 @@
+[
+  {
+    "estudio": "MoCA",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 23.2,
+    "desviacion": 2.2
+  },
+  {
+    "estudio": "Memoria Craft Story Craft Story 21 RI",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 17.1,
+    "desviacion": 5.0
+  },
+  {
+    "estudio": "Memoria Craft Story Craft Story 21 RIP",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 13.6,
+    "desviacion": 4.2
+  },
+  {
+    "estudio": "Memoria Craft Story  Craft Story 21 RD",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 14.6,
+    "desviacion": 6.2
+  },
+  {
+    "estudio": "Memoria Craft Story Craft Story 21 RDP",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 12.5,
+    "desviacion": 3.2
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Total",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 32.6,
+    "desviacion": 8.3
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Diferido",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 5.6,
+    "desviacion": 2.6
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Reconocimiento",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 11.5,
+    "desviacion": 2.6
+  },
+  {
+    "estudio": "Figura De Benson Reproducción",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 9.4,
+    "desviacion": 3.8
+  },
+  {
+    "estudio": "Lenguaje  Mint",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 27.0,
+    "desviacion": 5.6
+  },
+  {
+    "estudio": "Lenguaje  Fluencia semántica animales",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 14.2,
+    "desviacion": 5.6
+  },
+  {
+    "estudio": "Lenguaje  Fluencia fonológica (letra P)",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 9.3,
+    "desviacion": 2.2
+  },
+  {
+    "estudio": "Atención  Dígitos directos",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 6.5,
+    "desviacion": 1.8
+  },
+  {
+    "estudio": "Atención  Dígitos inversos",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 5.33,
+    "desviacion": 1.6
+  },
+  {
+    "estudio": "Atención  Trail Making test A",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 40.7,
+    "desviacion": 7.2
+  },
+  {
+    "estudio": "Sistema Ejecutivo  Trail Making test B",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 114.4,
+    "desviacion": 26.0
+  },
+  {
+    "estudio": "Sistema Ejecutivo  FAB",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 18.0,
+    "desviacion": 3.0
+  },
+  {
+    "estudio": "Funciones visuoespaciales Copia de la Figura de Benson",
+    "sexo": "M",
+    "edad_min": 90,
+    "edad_max": 120,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 15.0,
+    "desviacion": 2.0
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "estudio": "MoCA",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 26.5,
+    "desviacion": 2.7
+  },
+  {
+    "estudio": "Craft Story Recuerdo Inmediato",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 20.2,
+    "desviacion": 6.0
+  },
+  {
+    "estudio": "Craft Story Recuerdo Inmediato Parafraseo",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 15.0,
+    "desviacion": 3.6
+  },
+  {
+    "estudio": "Craft Story Recuerdo Diferido",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 17.3,
+    "desviacion": 6.6
+  },
+  {
+    "estudio": "Craft Story Recuerdo Diferido Parafraseo",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 14.3,
+    "desviacion": 4.1
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey Total",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 48.5,
+    "desviacion": 8.4
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey  Diferido",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 10.0,
+    "desviacion": 3.4
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey  Reconocimiento",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 12.1,
+    "desviacion": 2.7
+  },
+  {
+    "estudio": "Figura de Benson Reproducción",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 12.2,
+    "desviacion": 2.2
+  },
+  {
+    "estudio": "Lenguaje Test de Mint",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 28.5,
+    "desviacion": 2.6
+  },
+  {
+    "estudio": "Lenguaje  Fluencia semántica animales",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 22.1,
+    "desviacion": 4.9
+  },
+  {
+    "estudio": "Lenguaje Fluencia semántica verduras",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 13.9,
+    "desviacion": 4.3
+  },
+  {
+    "estudio": "Lenguaje  Fluencia fonológica (letra P)",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 15.3,
+    "desviacion": 4.8
+  },
+  {
+    "estudio": "Lenguaje Fluencia fonológica (letra M)",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 14.4,
+    "desviacion": 4.8
+  },
+  {
+    "estudio": "Atención Dígitos directos",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 6.7,
+    "desviacion": 1.4
+  },
+  {
+    "estudio": "Atención Dígitos inversos",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 5.4,
+    "desviacion": 1.5
+  },
+  {
+    "estudio": "Atención Trail Making test A\"\"\"",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 27.0,
+    "desviacion": 14.5
+  },
+  {
+    "estudio": "Sistema Ejecutivo Trail Making test B",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 73.4,
+    "desviacion": 52.1
+  },
+  {
+    "estudio": "Sistema Ejecutivo  FAB",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 16.61,
+    "desviacion": 1.48
+  },
+  {
+    "estudio": "Sistema Ejecutivo Test de Stroop PC",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 50.0,
+    "desviacion": 10.0
+  },
+  {
+    "estudio": "Sistema Ejecutivo Test de Stroop Interferencia",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 50.0,
+    "desviacion": 10.0
+  },
+  {
+    "estudio": "Sistema Ejecutivo Wisconsin Categorías",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 5.6,
+    "desviacion": 0.5
+  },
+  {
+    "estudio": "Sistema Ejecutivo Wisconsin Perseveraciones",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 3.7,
+    "desviacion": 2.6
+  },
+  {
+    "estudio": "Habilidades Visuoespaciales Figura de Benson Copia",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 15.4,
+    "desviacion": 1.3
+  },
+  {
+    "estudio": "Cog. Soc. Mini SEA Fau Pax Subscore",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 12.6,
+    "desviacion": 2.2
+  },
+  {
+    "estudio": "Cog. Soc. Mini SEA  Emocion Subscore",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 12.8,
+    "desviacion": 1.3
+  },
+  {
+    "estudio": "Cog. Soc. Mini SEA  Mini Sea Score Total",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 24.8,
+    "desviacion": 4.5
+  },
+  {
+    "estudio": "Cog. Soc. Mini SEA  Test de la Mirada (Opcional)",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 25.44,
+    "desviacion": 3.06
+  },
+  {
+    "estudio": "Escalas UDS FTLD (Inf.) Escala de Inhibición Conductual",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 15.3,
+    "desviacion": 3.3
+  },
+  {
+    "estudio": "Escalas UDS FTLD Puntaje Preocupacion Empatica",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 26.3,
+    "desviacion": 5.9
+  },
+  {
+    "estudio": "Escalas UDS FTLD Puntaje Toma Perspectiva",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 23.1,
+    "desviacion": 6.8
+  },
+  {
+    "estudio": "Escalas UDS FTLD (Inf.) Escala Revisada de Automonitoreo",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 60.7,
+    "desviacion": 7.7
+  },
+  {
+    "estudio": "Escalas UDS FTLD Sensibilidad a la expresión socio emocional",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 27.3,
+    "desviacion": 4.0
+  },
+  {
+    "estudio": "Escalas UDS FTLD Capacidad para modificar la auto presentación",
+    "sexo": "M",
+    "edad_min": 0,
+    "edad_max": 60,
+    "anios_estudio_min": 17,
+    "anios_estudio_max": 100,
+    "media": 33.5,
+    "desviacion": 6.2
+  }
+]

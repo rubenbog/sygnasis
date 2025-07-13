@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load form_tags %}
+{% block content %}
+  <h2>Resultado de Estudio para {{ paciente.nombre }} {{ paciente.apellido }}</h2>
+
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Guardar Resultado</button>
+  </form>
+
+ <p><a href="{% url 'app:index' %}">← Volver a la página principal</a></p>
+
+{% endblock %}

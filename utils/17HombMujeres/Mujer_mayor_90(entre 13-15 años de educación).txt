@@ -1,0 +1,7 @@
+Atencion Digitos directos;F;90;100;13;15;6.75;0.71
+Atencion Digitos inversos ;F;90;100;13;15;4.88;0.64
+Sistema Ejecutivo Test de Stroop PC;F;90;100;13;15;50.00;10.00
+Sistema Ejecutivo Test de Stroop Interferencia;F;90;100;13;15;50.00;10.00
+Sistema Ejecutivo Wisconsin Categorias;F;90;100;13;15;5.60;1.00
+Sistema Ejecutivo Wisconsin Peseveraciones;F;90;100;13;15;3.70;5.00
+

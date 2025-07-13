@@ -1,0 +1,62 @@
+[
+  {
+    "estudio": "Atencion Digitos directos",
+    "sexo": "F",
+    "edad_min": 90,
+    "edad_max": 100,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 6.75,
+    "desviacion": 0.71
+  },
+  {
+    "estudio": "Atencion Digitos inversos",
+    "sexo": "F",
+    "edad_min": 90,
+    "edad_max": 100,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 4.88,
+    "desviacion": 0.64
+  },
+  {
+    "estudio": "Sistema Ejecutivo Test de Stroop PC",
+    "sexo": "F",
+    "edad_min": 90,
+    "edad_max": 100,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 50.0,
+    "desviacion": 10.0
+  },
+  {
+    "estudio": "Sistema Ejecutivo Test de Stroop Interferencia",
+    "sexo": "F",
+    "edad_min": 90,
+    "edad_max": 100,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 50.0,
+    "desviacion": 10.0
+  },
+  {
+    "estudio": "Sistema Ejecutivo Wisconsin Categorias",
+    "sexo": "F",
+    "edad_min": 90,
+    "edad_max": 100,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 5.6,
+    "desviacion": 1.0
+  },
+  {
+    "estudio": "Sistema Ejecutivo Wisconsin Peseveraciones",
+    "sexo": "F",
+    "edad_min": 90,
+    "edad_max": 100,
+    "anios_estudio_min": 13,
+    "anios_estudio_max": 15,
+    "media": 3.7,
+    "desviacion": 5.0
+  }
+]

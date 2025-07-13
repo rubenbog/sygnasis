@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load form_tags %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4">✏️ Editar Relaciones Familiares de {{ paciente.nombre }} {{ paciente.apellido }}</h2>
+
+  <form method="post" class="needs-validation" novalidate>
+    {% csrf_token %}
+
+    <div class="mb-3">
+      {{ form.padre.label_tag }}
+      {{ form.padre|add_class:"form-select" }}
+    </div>
+
+    <div class="mb-3">
+      {{ form.madre.label_tag }}
+      {{ form.madre|add_class:"form-select" }}
+    </div>
+
+    <div class="mb-3">
+      {{ form.conyuge.label_tag }}
+      {{ form.conyuge|add_class:"form-select" }}
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a href="{% url 'app:detalle_paciente' paciente.id %}" class="btn btn-secondary ms-2">Cancelar</a>
+  </form>
+</div>
+{% endblock %}

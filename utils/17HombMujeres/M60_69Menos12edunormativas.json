@@ -1,0 +1,182 @@
+[
+  {
+    "estudio": "MoCA",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 24.7,
+    "desviacion": 3.1
+  },
+  {
+    "estudio": "Memoria Craft Story Recuerdo Inmediato textual",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 20.5,
+    "desviacion": 7.3
+  },
+  {
+    "estudio": "Memoria Craft Story Recuerdo Inmediato Parafraseo",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 15.2,
+    "desviacion": 4.6
+  },
+  {
+    "estudio": "Memoria Craft Story  Recuerdo Diferido textual",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 18.3,
+    "desviacion": 7.4
+  },
+  {
+    "estudio": "Memoria Craft Story  Recuerdo Diferido Parafraseo",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 14.3,
+    "desviacion": 4.8
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey   Total",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 49.4,
+    "desviacion": 7.5
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey   Diferido",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 10.2,
+    "desviacion": 2.5
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey   Reconocimiento",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 11.3,
+    "desviacion": 2.8
+  },
+  {
+    "estudio": "Figura de Benson  Reproducción",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 10.9,
+    "desviacion": 2.9
+  },
+  {
+    "estudio": "Lenguaje  Mint",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 28.7,
+    "desviacion": 2.6
+  },
+  {
+    "estudio": "Lenguaje  Fluencia semántica (animales)",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 19.5,
+    "desviacion": 4.7
+  },
+  {
+    "estudio": "Lenguaje  Fluencia fonológica (letra P)",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 13.5,
+    "desviacion": 4.8
+  },
+  {
+    "estudio": "Atención  Dígitos directos",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 6.2,
+    "desviacion": 1.3
+  },
+  {
+    "estudio": "Atención  Dígitos inversos",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 4.6,
+    "desviacion": 1.2
+  },
+  {
+    "estudio": "Atencion  Trail Making test A\"",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 30.9,
+    "desviacion": 12.0
+  },
+  {
+    "estudio": "Sistema Ejecutivo  Trail Making test B\"",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 96.1,
+    "desviacion": 51.1
+  },
+  {
+    "estudio": "Sistema Ejecutivo  FAB",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 16.6,
+    "desviacion": 1.5
+  },
+  {
+    "estudio": "Habilidades Visuoespaciales  Figura de Benson Copia",
+    "sexo": "F",
+    "edad_min": 60,
+    "edad_max": 69,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 15.3,
+    "desviacion": 1.6
+  }
+]

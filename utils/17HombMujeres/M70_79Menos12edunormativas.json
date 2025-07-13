@@ -1,0 +1,172 @@
+[
+  {
+    "estudio": "MoCA",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 24.2,
+    "desviacion": 3.7
+  },
+  {
+    "estudio": "Memoria Craft Story Recuerdo Inmediato textual",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 20.0,
+    "desviacion": 7.0
+  },
+  {
+    "estudio": "Memoria Craft Story Recuerdo Inmediato Parafraseo",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 14.9,
+    "desviacion": 4.3
+  },
+  {
+    "estudio": "Memoria Craft Story  Recuerdo Diferido textual",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 17.1,
+    "desviacion": 7.2
+  },
+  {
+    "estudio": "Memoria Craft Story  Recuerdo Diferido Parafraseo",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 13.5,
+    "desviacion": 4.7
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey   Total",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 41.6,
+    "desviacion": 6.6
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey   Diferido",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 8.3,
+    "desviacion": 2.1
+  },
+  {
+    "estudio": "Aprendizaje Verbal de Rey   Reconocimiento",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 11.3,
+    "desviacion": 2.8
+  },
+  {
+    "estudio": "Figura de Benson  Reproducción",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 10.2,
+    "desviacion": 3.0
+  },
+  {
+    "estudio": "Lenguaje  Mint",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 28.4,
+    "desviacion": 2.8
+  },
+  {
+    "estudio": "Lenguaje  Fluencia semántica (animales)",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 18.7,
+    "desviacion": 5.0
+  },
+  {
+    "estudio": "Lenguaje  Fluencia fonológica (letra P)",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 12.8,
+    "desviacion": 4.5
+  },
+  {
+    "estudio": "Atención  Dígitos directos",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 6.1,
+    "desviacion": 1.4
+  },
+  {
+    "estudio": "Atencion  Trail Making test A\"",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 46.2,
+    "desviacion": 26.2
+  },
+  {
+    "estudio": "Atención  Dígitos inversos",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 4.5,
+    "desviacion": 1.3
+  },
+  {
+    "estudio": "Sistema Ejecutivo  FAB",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 16.4,
+    "desviacion": 1.7
+  },
+  {
+    "estudio": "Habilidades Visuoespaciales  Figura de Benson Copia",
+    "sexo": "F",
+    "edad_min": 70,
+    "edad_max": 79,
+    "anios_estudio_min": 0,
+    "anios_estudio_max": 12,
+    "media": 15.1,
+    "desviacion": 1.7
+  }
+]

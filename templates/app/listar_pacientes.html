@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Lista de Pacientes</h2>
+
+<table border="1" cellpadding="10">
+  <tr>
+    <th>Nombre</th>
+    <th>DNI</th>
+    <th>Sexo</th>
+    <th>Años de educación</th>
+    <th>Acciones</th>
+  </tr>
+  {% for paciente in pacientes %}
+  <tr>
+    <td>{{ paciente.nombre }} {{ paciente.apellido }}</td>
+    <td>{{ paciente.dni }}</td>
+    <td>{{ paciente.sexo }}</td>
+    <td>{{ paciente.años_educacion }}</td>
+    <td>
+      <a href="{% url 'app:detalle_paciente' paciente.id %}">👁 Ver</a> |
+      <a href="{% url 'app:editar_paciente' paciente.id %}">✏️ Editar</a> |
+      <a href="{% url 'app:eliminar_paciente' paciente.id %}">🗑️ Eliminar</a>
+    </td>
+  </tr>
+  {% empty %}
+  <tr>
+    <td colspan="5">No hay pacientes cargados.</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<p><a href="{% url 'app:cargar_paciente' %}">➕ Cargar nuevo paciente</a></p>
+<p><a href="{% url 'app:index' %}">← Volver a la página principal</a></p>
+
+{% endblock %}

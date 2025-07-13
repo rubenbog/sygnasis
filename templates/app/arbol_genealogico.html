@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+{% load form_tags %}
+{% block content %}
+
+
+<h2>Árbol Genealógico de {{ paciente.nombre }} {{ paciente.apellido }}</h2>
+
+<div style="display: flex; gap: 30px;">
+  <!-- Información textual -->
+  <div class="container mt-4">
+  <h3 class="mb-3">👪 Familia</h3>
+  <ul class="list-group">
+    {% if padre %}
+      <li class="list-group-item">
+        👨 <strong>Padre:</strong> <a href="{% url 'app:detalle_paciente' padre.id %}" class="text-decoration-none">{{ padre.nombre }} {{ padre.apellido }}</a>
+      </li>
+    {% endif %}
+    {% if madre %}
+      <li class="list-group-item">
+        👩 <strong>Madre:</strong> <a href="{% url 'app:detalle_paciente' madre.id %}" class="text-decoration-none">{{ madre.nombre }} {{ madre.apellido }}</a>
+      </li>
+    {% endif %}
+    {% if conyuge %}
+      <li class="list-group-item">
+        ❤️ <strong>Cónyuge:</strong> <a href="{% url 'app:detalle_paciente' conyuge.id %}" class="text-decoration-none">{{ conyuge.nombre }} {{ conyuge.apellido }}</a>
+      </li>
+    {% endif %}
+    {% if hermanos %}
+      <li class="list-group-item">
+        👫 <strong>Hermanos:</strong>
+        <ul class="list-unstyled ms-3">
+          {% for h in hermanos %}
+            <li>🔗 <a href="{% url 'app:detalle_paciente' h.id %}" class="text-decoration-none">{{ h.nombre }} {{ h.apellido }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+    <li class="list-group-item">
+      👶 <strong>Hijos:</strong>
+      <ul class="list-unstyled ms-3">
+        {% for hijo in hijos %}
+          <li>🔗 <a href="{% url 'app:detalle_paciente' hijo.id %}" class="text-decoration-none">{{ hijo.nombre }} {{ hijo.apellido }}</a></li>
+        {% empty %}
+          <li>No tiene hijos registrados.</li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+  <!-- Visualización interactiva -->
+  <div id="arbol" style="flex: 2; height: 600px;"></div>
+</div>
+
+<!-- D3.js para árbol -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+  const data = {{ datos|safe }};
+
+  const width = 800;
+  const dx = 20;
+  const dy = width / 6;
+  const tree = d3.tree().nodeSize([dx, dy]);
+  const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+
+  const root = d3.hierarchy(data, d => {
+    let children = [];
+    if (d.padre) children.push(d.padre);
+    if (d.madre) children.push(d.madre);
+    if (d.hijos) children = children.concat(d.hijos);
+    return children.length ? children : null;
+  });
+
+  root.x0 = dy / 2;
+  root.y0 = 0;
+  const svg = d3.select("#arbol").append("svg")
+      .attr("viewBox", [-dy / 2, -dx, width, dx * 10])
+      .style("font", "12px sans-serif")
+      .style("user-select", "none");
+
+  const g = svg.append("g").attr("transform", `translate(${dy},${dx})`);
+  const nodes = root.descendants();
+  const links = root.links();
+
+  tree(root);
+
+  g.selectAll("path.link")
+    .data(links)
+    .join("path")
+      .attr("class", "link")
+      .attr("fill", "none")
+      .attr("stroke", "#555")
+      .attr("stroke-width", 1.5)
+      .attr("d", d => diagonal(d));
+
+  const node = g.selectAll("g.node")
+    .data(nodes)
+    .join("g")
+      .attr("class", "node")
+      .attr("transform", d => `translate(${d.y},${d.x})`);
+
+  node.append("circle")
+      .attr("r", 4)
+      .attr("fill", d => d.children ? "#555" : "#999");
+
+  node.append("text")
+    .attr("dy", "0.31em")
+    .attr("x", d => d.children ? -6 : 6)
+    .attr("text-anchor", d => d.children ? "end" : "start")
+    .text(d => d.data.nombre)
+    .attr("fill", d => d.children ? "#555" : "#999")
+    .style("cursor", "pointer")
+    .on("click", (event, d) => {
+        if (d.data.id) {
+            window.location.href = `/${d.data.id}/`;
+        }
+    })
+    .clone(true).lower()
+    .attr("stroke", "white");
+
+</script>
+{% endblock %}

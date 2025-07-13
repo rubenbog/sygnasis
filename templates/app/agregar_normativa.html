@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5">
+  <h2>{% if normativa %}Editar{% else %}Agregar{% endif %} Normativa</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a href="{% url 'app:listar_normativas' %}" class="btn btn-secondary">← Volver</a>
+  </form>
+</div>
+{% endblock %}

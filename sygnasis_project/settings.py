@@ -56,7 +56,11 @@ WSGI_APPLICATION = 'sygnasis_project.wsgi.application'
 
 # Base de datos PostgreSQL desde Render
 DATABASES = {
-    'default': dj_database_url.config(default=config('DATABASE_URL'))
+    'default': dj_database_url.config(
+      default=f"postgres://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}",
+      conn_max_age=600,
+      ssl_require=True
+    )
 }
 
 # Contraseña
@@ -74,8 +78,11 @@ USE_I18N = True
 USE_TZ = True
 
 # Archivos estáticos y media
+#STATIC_URL = '/static/'
+#STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = '/media/'

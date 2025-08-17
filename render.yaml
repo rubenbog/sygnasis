@@ -3,7 +3,7 @@ services:
     name: sygnasis
     env: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn sygnasis_project.wsgi:application"
+    startCommand: "./start.sh"
     preDeployCommand: "python manage.py migrate"
     envVars:
       - key: DEBUG

@@ -1,6 +1,22 @@
 Django==5.0.2
-psycopg2-binary==2.9.10
-whitenoise==6.6.0
+asgiref==3.7.2
+sqlparse==0.4.4
+tzdata==2024.1
+
+# Configuración
 python-decouple==3.8
-dj-database-url
-gunicorn 
+gunicorn==23.0.0
+
+# PostgreSQL
+psycopg2-binary==2.9.10
+
+# Extras que usás en el sistema
+requests==2.30.0
+pillow==10.2.0
+weasyprint==65.1
+#selenium==4.9.1
+undetected-chromedriver==3.5.4
+whitenoise==6.7.0
+
+# Opcional en local
+python-dotenv==1.0.0

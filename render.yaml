@@ -2,7 +2,6 @@ services:
   - type: web
     name: sygnasis
     env: python
-    buildCommand: "./build.sh"
     startCommand: "./start.sh"
     preDeployCommand: "python manage.py migrate"
     envVars:

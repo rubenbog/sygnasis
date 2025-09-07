@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from decouple import config, Csv
-import dj_database_url
+
 
 # Base directory
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -56,12 +56,22 @@ WSGI_APPLICATION = 'sygnasis_project.wsgi.application'
 
 # Base de datos PostgreSQL desde Render
 DATABASES = {
-    'default': dj_database_url.config(
-      default=f"postgres://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}",
-      conn_max_age=600,
-      ssl_require=True
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
+        'PORT': config('DB_PORT', default='5432'),
+    }
 }
+#DATABASES = {
+#    'default': dj_database_url.config(
+#      default=f"postgres://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}",
+#      conn_max_age=600,
+#      ssl_require=True
+#    )
+#}
 
 # Contraseña
 AUTH_PASSWORD_VALIDATORS = [

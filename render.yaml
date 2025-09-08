@@ -2,7 +2,8 @@ services:
   - type: web
     name: sygnasis
     env: python
-    startCommand: "./start.sh"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn sygnasis_project.wsgi:application"
     preDeployCommand: "python manage.py migrate"
     envVars:
       - key: DEBUG

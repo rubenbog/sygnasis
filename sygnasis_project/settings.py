@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
+import dj_database_url
 from decouple import config, Csv
+
 
 
 # Base directory
@@ -56,14 +58,9 @@ WSGI_APPLICATION = 'sygnasis_project.wsgi.application'
 
 # Base de datos PostgreSQL desde Render
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT', default='5432'),
-    }
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
 }
 #DATABASES = {
 #    'default': dj_database_url.config(

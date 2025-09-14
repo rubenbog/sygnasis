@@ -9,6 +9,7 @@ gunicorn==23.0.0
 
 # PostgreSQL
 psycopg2-binary==2.9.10
+dj-database-url==3.0.1
 
 # Extras que usás en el sistema
 requests==2.30.0

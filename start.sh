@@ -8,4 +8,4 @@ echo "📦 Recolectando archivos estáticos..."
 python manage.py collectstatic --noinput
 
 echo "🚀 Iniciando servidor con Gunicorn..."
-gunicorn sygnasis_project.wsgi:application --bind 0.0.0.0:10000
+gunicorn sygnasis_project.wsgi:application --bind 0.0.0.0:$PORT

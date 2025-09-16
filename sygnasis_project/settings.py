@@ -13,6 +13,12 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost', cast=Csv())
 
+CSRF_TRUSTED_ORIGINS = config(
+    "CSRF_TRUSTED_ORIGINS",
+    default="https://sygnasis-production.up.railway.app",
+    cast=Csv()
+)
+
 # Aplicaciones instaladas
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -100,3 +106,4 @@ LOGIN_URL = '/admin/login/'
 
 # Default primary key
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
